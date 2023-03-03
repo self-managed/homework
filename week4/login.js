@@ -1,7 +1,7 @@
 import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js';
 
 createApp({
-    data(){
+    data() {
         return {
             base_url: 'https://vue3-course-api.hexschool.io/v2',
             user: {
@@ -11,7 +11,7 @@ createApp({
         }
     },
     methods: {
-        login(){
+        login() {
             const api = `${this.base_url}/admin/signin`;
 
             axios.post(api, this.user)
@@ -24,7 +24,6 @@ createApp({
                 .catch((err) => {
                     alert(err.response.data.message);
                 })
-
         }
     }
 }).mount('#app');
