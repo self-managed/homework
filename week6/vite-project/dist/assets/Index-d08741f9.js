@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as n,a as o}from"./index-e4d782c7.js";const s={name:"Index",data(){return{}}},a=o("h2",null," 這個是首頁頁面 ",-1),c=[a];function r(_,d,l,p,i,u){return t(),n("div",null,c)}const m=e(s,[["render",r]]);export{m as default};
