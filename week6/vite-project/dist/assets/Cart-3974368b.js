@@ -1,0 +1,1 @@
+import{_ as e,o as t,c,a as s}from"./index-5ae73127.js";const o={},a=s("h2",null," This is cart page. ",-1),n=[a];function r(_,i){return t(),c("div",null,n)}const d=e(o,[["render",r]]);export{d as default};
